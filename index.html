@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Classic literaTour</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="styles/design.css">
+		<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<!--page top-->
+		<div class="row">
+  			<div class="col"><h1 id=mainTitle>Classic literaTour</div>
+		</div>
+		<div id="homepageCar" class="carousel slide" data-ride="carousel" data-interval="5000">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#homepageCar" data-slide-to="0" class="active"></li>
+    <li data-target="#homepageCar" data-slide-to="1"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="img-fluid" src="images\car1.jpeg" alt="Library">
+    </div>
+    <div class="carousel-item">
+      <img class="img-fluid" src="images\car2.jpeg" alt="Books and coffee">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#homepageCar" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#homepageCar" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<!--navigation bar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Browse</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="html/home.html" target="mainIframe">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="html/introduction.html" target="mainIframe">Introduction</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Through Time</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link disabled" href="#">By Location</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link disabled" href="#">Must Reads</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="html/aboutus.html" target="mainIframe">About us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!--frame to display everything-->
+<div class="embed-responsive embed-responsive-21by9">
+  <iframe name="mainIframe" class="embed-responsive-item" src="html/home.html"></iframe>
+</div>
+<!--footer-->
+<footer>
+	<ul style="list-style-type: none;
+    			margin: 0;
+    			padding: 0;
+				text-align: center;
+				font-size: 70%;">
+		<li>Built with Bootstrap</li>
+		<li>Team //noComment,<br>Autumn 2017</li>
+	</ul>
+</footer>
+</div>
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+	</body>
+</html>

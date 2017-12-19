@@ -1,0 +1,10 @@
+body{
+	background-color: #ffe2d3;
+}
+#mainTitle{
+	text-align: center;
+	font-family: 'Crimson Text', serif;
+}
+p{
+	text-align: justify;
+}

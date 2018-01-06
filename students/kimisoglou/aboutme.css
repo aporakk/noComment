@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+}
+
+
+/* HEADER SECTION*/
+
+.site-header {
+    background: #f7f7f7;
+    color: #4e4e4e;
+    padding: 10px 5% 10px 5%;
+    /*topbottom rightleft*/
+    box-shadow: 0 1px 3px #999;
+    /*rightandleft upanddown spreadout color*/
+    font-family: Trebuchet MS;
+    text-align: center;
+}
+
+.site-header h1 {
+    margin 0;
+    font-family: Trebuchet MS;
+    font size: 20px;
+}
+
+.site-header a {
+    font-size: 15px;
+}
+
+.site-header p {
+    font-size: 15px;
+}
+
+.contact {
+    background-color: #4e4e4e;
+    color: #f7f7f7;
+    padding: 10px 20px;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.contact:hover {
+    background-color: #f7f7f7;
+    color: #4e4e4e;
+    transition: all 0.5s ease;
+}
+
+
+/*ABOUT ME SECTION*/
+
+.about-me {
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.about-me h2 {
+    color: #4e4e4e;
+    text-align: center;
+    font-family: Trebuchet MS;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 30px
+}
+
+.about-me h2:after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    left: 50%;
+    bottom: -15px;
+    background-color: #4e4e4e;
+}
+
+img {
+    height: 350px;
+    margin: auto;
+    display: block;
+    width 40%;
+}
+
+p {
+    text-align: center;
+}

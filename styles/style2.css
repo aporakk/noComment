@@ -1,0 +1,227 @@
+* {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-family: Catamaran;
+    background-color: #ffe2d33b;
+    color: #111;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 13px;
+}
+
+h1, h2, h3 {
+    margin: 10px;
+    padding: 0 15px;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    padding: 1em 0;
+}
+
+main {
+    padding-top: 100px;
+}
+
+/*HEADER*/
+
+/* mobile version */
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    width: 100%
+    height: 100px;
+}
+
+header h1 {
+    font-family: Catamaran;
+    font-size: 24px;
+    font-weight: 900;
+    color: #111;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header nav a {
+    font-family: Catamaran;
+    font-size: 16px;
+    color: #111;
+    text-transform: uppercase;
+}
+
+header .header-nextperiods {
+    display: none;
+}
+
+.header-nextperiods:hover {
+    background-color: #ffe2d33b;
+    text-decoration: none;
+}
+
+header .header-previousperiods {
+    display: none;
+}
+
+.header-previousperiods:hover {
+    background-color: #ffe2d33b;
+    text-decoration: none;
+}
+
+/* for the desktop version we change some things from above, the mobile version */
+
+@media only screen and (min-width: 1000px) {
+
+    header nav a {
+       line-height: 60px; /* in order to center it 100-60=40 so margin is 20px and 0px */
+    }
+    
+    header .header-nextperiods {
+        display: block;
+        font-family: Catamaran;
+        font-size: 16px;
+        color: #111;
+        text-transform: uppercase;
+        line-height: 38px; /* in order to center it 100-40=60 so margin top is 30px (38 + 1 px + 1 px from the border =40) */
+        border: 1px solid #111;
+        float: right;
+        margin-right: 40px;
+        margin-top: 30px;
+        padding: 0 20px;
+    }
+    
+    header .header-previousperiods {
+        display: block;
+        font-family: Catamaran;
+        font-size: 16px;
+        color: #111;
+        text-transform: uppercase;
+        line-height: 38px; /* in order to center it 100-40=60 so margin top is 30px (38 + 1 px + 1 px from the border =40) */
+        border: 1px solid #111;
+        float: left;
+        margin-left: 40px;
+        margin-top: 30px;
+        padding: 0 20px;
+        }
+}
+
+/* Main for mobiles.. */
+/* Section A */
+
+#section-a {
+    background: #ffe2d33b;
+    color: #111;
+    padding-bottom: 2em;
+}
+
+/* Section B */
+
+#section-b {
+    background: #ffe2d33b;
+    color: #111;
+    padding: 2em;
+}
+
+/* Section C */
+
+#section-c {
+    padding: 10em;
+}
+
+#section-c ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: space-around;
+}
+
+#section-c li {
+    margin-bottom: 1em;
+    background: white;
+    color: #111;
+}
+
+.card-content {
+    padding: 1.5em;
+}
+
+.card-content h3,p {
+    text-align: center;
+}
+
+/* Footer */
+
+#main-footer {
+    padding: 2em;
+    background-color: #2f4f4f5c;
+    color: #fff;
+    text-align: center;
+}
+
+#main-footer a {
+    color: #2690d4;
+    text-decoration: none;
+}
+
+/* Main for screens up to 1000px */
+
+@media(min-width: 1000px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    }
+    
+    #section-a .content-text {
+        columns: 2;
+        column-gap: 2em;
+    }
+    
+    #section-a .content-text p {
+        padding-top: 0;
+    }
+    
+    #section-c ul {
+        display:flex;
+        justify-content: space-around;
+    }
+    
+    
+    #section-c li {
+        width: 31%;
+    }
+    
+    #section-c h3 {
+        font-size: 26px;
+    }
+    
+    .content-wrap,
+    #section-c ul {
+        grid-column: 2 / 4;
+    }
+    
+    #main-footer div {
+        grid-column: span 2;
+    }
+
+}

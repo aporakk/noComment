@@ -1,0 +1,87 @@
+/*Tasioudis Christos*/
+
+.fancy {
+    font-family: 'Muli', sans-serif;
+    text-emphasis: "Bold";
+    background-color: darkturquoise;
+    position: static;
+    float: none;
+}
+
+.h2Cover {
+    background-image: url(images/7.jpg)
+}
+
+.p1 {
+    max-width: none;
+}
+
+.portfolio {
+    background-image: url(images/28.jpeg);
+}
+
+.photography {
+    background-image: url(images/29.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.finish {
+    background-image: url(Untitled.mp4);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(2.png) no-repeat;
+    background-size: auto;
+}
+
+.about {
+    background-image: url(images/F.jpeg);
+}
+
+.b1 {
+    background-image: url(images/b1.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+body {
+    background-color: beige;
+    font-family: sans-serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+}

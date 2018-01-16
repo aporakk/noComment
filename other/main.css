@@ -1,33 +1,33 @@
+/*Tsamis Georgios*/
 
 * {
-	margin: 0px; 
-	padding: 0px; 
-	box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-body, html {
-	height: 100%;
-	font-family: sans-serif;
+body,
+html {
+  height: 100%;
+  font-family: sans-serif;
 }
-
 
 a {
-	margin: 0px;
-	transition: all 0.4s;
-	-webkit-transition: all 0.4s;
+  margin: 0px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
 }
 
+p {
+  margin: 0px;
+}
 
-
-
-
-p {margin: 0px;}
-
-ul, li {
-	margin: 0px;
-	list-style-type: none;
+ul,
+li {
+  margin: 0px;
+  list-style-type: none;
 }
 
 .table100 .ps__rail-x .ps__thumb-x {
@@ -48,16 +48,10 @@ ul, li {
   left: 15px;
 }
 
-
-
-
 .limiter {
   width: 100%;
   margin: 0 auto;
   background: #fa71cd;
-
-
-
 }
 
 .container-table100 {
@@ -79,7 +73,6 @@ ul, li {
   width: 100%;
 }
 
-
 .table100 {
   background-color: #fff;
 }
@@ -88,7 +81,8 @@ table {
   width: 100%;
 }
 
-th, td {
+th,
+td {
   font-weight: unset;
   padding-right: 10px
 }
@@ -137,8 +131,6 @@ th, td {
   padding-bottom: 16px;
 }
 
-
-
 .table100 {
   width: 100%;
   position: relative;
@@ -164,17 +156,10 @@ th, td {
   padding-bottom: 28px;
 }
 
-.table100-nextcols table{
+.table100-nextcols table {
   table-layout: fixed;
 }
-
-
 
 .table100-firstcol table {
   background-color: transparent;
 }
-
-
-
-
-
